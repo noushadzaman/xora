@@ -15,7 +15,7 @@ const Header = () => {
         <header className="fixed top-0 left-0 w-full py-10">
             <div className="container flex h-14 items-center max-lg:px-5">
                 <a className="lg:hidden flex-1 cursor-pointer z-2">
-                    <img src="/public/images/xora.svg" width={155} height={55} alt="logo" />
+                    <img src="/images/xora.svg" width={155} height={55} alt="logo" />
                 </a>
 
                 <div className={clsx("w-full max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:bg-s2 max-lg:opacity-0", isOpen ? 'max-lg:opacity-100' : 'max-lg:pointer-events-none')}>
@@ -37,7 +37,7 @@ const Header = () => {
                                         smooth
                                         className={clsx('max-lg:hidden transition-transform duration-500 cursor-pointer')}
                                     >
-                                        <img src="/public/images/xora.svg" width={160} height={55} alt="logo" />
+                                        <img src="/images/xora.svg" width={160} height={55} alt="logo" />
                                     </LinkScroll>
                                 </li>
 
