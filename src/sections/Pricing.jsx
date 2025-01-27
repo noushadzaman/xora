@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useState } from "react"
 import { Element } from "react-scroll"
-import { plans } from "../constants";
+import { plans } from "../constants/index.jsx";
 import CountUp from "react-countup";
 import Button from "../components/Button";
 
@@ -100,7 +100,7 @@ const Pricing = () => {
                                                 <li key={feature} className="relative flex items-center gap-5">
                                                     <img
                                                         className="size-10 object-contain"
-                                                        src="/public/images/check.png"
+                                                        src="/images/check.png"
                                                         alt="check"
                                                     />
                                                     <p className="flex-1">{feature}</p>
